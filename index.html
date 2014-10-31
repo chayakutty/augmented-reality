@@ -28,9 +28,9 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="http://www.bootply.com" target="ext">About</a></li>
+            <li><a href="#about" target="ext">About</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Action</a></li>
@@ -40,14 +40,13 @@
                 <li><a href="#">Separated link</a></li>
                 <li><a href="#">One more separated link</a></li>
               </ul>
-            </li>
+            </li>-->
           </ul>
         </div>
 
     </div>
   </div><!-- /container -->
 </div><!-- /navbar wrapper -->
-
 
 <!-- Carousel
 ================================================== -->
@@ -65,7 +64,7 @@
         <div class="carousel-caption">
           <h1>Chaya Narayanan Kutty</h1>
           <pthis is="" an="" example="" layout="" with="" carousel="" that="" uses="" the="" bootstrap="" 3="" styles.<="" small=""><p></p>
-          <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com">Learn More</a>
+          <p><a class="btn btn-lg btn-primary" href="#my-projects">Learn More</a>
         </p></pthis></div>
       </div>
     </div>
@@ -73,9 +72,9 @@
       <img src="./assets/shoppingmallpinball.png" class="img-responsive">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Changes to the Grid</h1>
-          <p>Chaya's portfolio</p>
-          <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
+          <h1>Augmented Reality based games</h1>
+          <p></p>
+          <p><a class="btn btn-large btn-primary" href="#mall-pinball">Learn more</a></p>
         </div>
       </div>
     </div>
@@ -83,9 +82,9 @@
       <img src="./assets/augfrog.png" class="img-responsive">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Percentage-based sizing</h1>
-          <p>With "mobile-first" there is now only one percentage-based grid.</p>
-          <p><a class="btn btn-large btn-primary" href="#">Browse gallery</a></p>
+          <h1>Pedestrian Assist App</h1>
+          <p></p>
+          <p><a class="btn btn-large btn-primary" href="#ped-assist">Learn more</a></p>
         </div>
       </div>
     </div>
@@ -105,27 +104,27 @@
 ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
-<div class="container marketing">
+<div id="my-projects" class="container marketing">
 
   <!-- Three columns of text below the carousel -->
   <div class="row">
     <div class="col-md-4 text-center">
       <img class="img-circle" src="http://placehold.it/140x140">
       <h2>AugFrog</h2>
-      <p>Play the game of Frogger when augmented with a video of a freeway</p>
-      <p><a class="btn btn-default" href="#">View details »</a></p>
+      <p>Augmented game of Frogger onto a stream of traffic</p>
+      <p><a class="btn btn-default" href="#aug-frog">View details »</a></p>
     </div>
     <div class="col-md-4 text-center">
       <img class="img-circle" src="http://placehold.it/140x140">
       <h2>Shopping Mall Pinball</h2>
       <p>Play pinball in a mall</p>
-      <p><a class="btn btn-default" href="#">View details »</a></p>
+      <p><a class="btn btn-default" href="#mall-pinball">View details »</a></p>
     </div>
     <div class="col-md-4 text-center">
       <img class="img-circle" src="http://placehold.it/140x140">
       <h2>Pedestrian Assist</h2>
       <p>Android app to assist people cross a road</p>
-      <p><a class="btn btn-default" href="#">View details »</a></p>
+      <p><a class="btn btn-default" href="#ped-assist">View details »</a></p>
     </div>
   </div><!-- /.row -->
 
@@ -134,37 +133,51 @@
 
   <hr class="featurette-divider">
 
-  <div class="featurette">
+  <div id="ped-assist" class="featurette">
     <img class="featurette-image img-circle pull-right" src="http://placehold.it/512">
-    <h2 class="featurette-heading">Responsive Design. <span class="text-muted">It'll blow your mind.</span></h2>
-    <p class="lead">In simple terms, a responsive web design figures out what resolution of device it's being served on. Flexible grids then size correctly to fit the screen.</p>
+    <h2 class="featurette-heading">Pedestrian-Assist </h2>
+    <p class="lead">An Android app, which can assist a pedestrian with partial sight or hyperopia, to safely cross the road.</p>
+  </div>
+  
+  <hr class="featurette-divider">
+
+  <div id="aug-frog"class="featurette">
+    <img class="featurette-image img-circle pull-right" src="http://placehold.it/512">
+    <h2 class="featurette-heading">AugFrog
+    <p class="lead">An augmented reality based video game of Frogger. Simply put, this is a game of Frogger integrated with a recorded video stream of traffic on a freeway.</p>
   </div>
 
   <hr class="featurette-divider">
 
-  <div class="featurette">
+  <div id="mall-pinball" class="featurette">
     <img class="featurette-image img-circle pull-left" src="http://placehold.it/512">
-    <h2 class="featurette-heading">Smaller Footprint. <span class="text-muted">Lightweight.</span></h2>
-    <p class="lead">The new Bootstrap 3 promises to be a smaller build. The separate Bootstrap base and responsive.css files have now been merged into one. There is no more fixed grid, only fluid.</p>
+    <h2 class="featurette-heading">Shopping Mall Pinball
+    <p class="lead">Shopping Mall Pinball is an augmented reality based video game of Pinball, where the arcade game of Pinball is augmented onto a video of the corridor of a shopping mall. .</p>
   </div>
+  
 
   <hr class="featurette-divider">
-
-  <div class="featurette">
-    <img class="featurette-image img-circle pull-right" src="http://placehold.it/512">
-    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Flatness.</span></h2>
-    <p class="lead">A big design trend for 2013 is "flat" design. Gone are the days of excessive gradients and shadows. Designers are producing cleaner flat designs, and Bootstrap 3 takes advantage of this minimalist trend.</p>
-  </div>
-
+<div id="about" class="featurette">
+<p class="featurette-heading">About</p>
+<p class="lead"> A full stack software engineer who is passionate about Augmented Reality. I believe that augmented reality will be the next new UI. </p>
+</div>
+  
   <hr class="featurette-divider">
+<!--Contact==== -->
 
+<div id="contact" class="featurette">
+<p class="featurette-heading">Contact me</p>
+<p class="lead">chaya.kutty@gmail.com</p>
+</div>
+
+<hr class="featurette-divider">
   <!-- /END THE FEATURETTES -->
 
 
   <!-- FOOTER -->
   <footer>
     <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>This Bootstrap layout is compliments of Bootply. · <a href="http://www.bootply.com/62603">Edit on Bootply.com</a></p>
+  <!--  <p>This Bootstrap layout is compliments of Bootply. · <a href="http://www.bootply.com/62603">Edit on Bootply.com</a></p>-->
   </footer>
 
 </div><!-- /.container -->
